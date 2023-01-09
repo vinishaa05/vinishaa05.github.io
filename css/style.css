@@ -1,0 +1,31 @@
+.myname{
+    font-family: monospace;
+    font-size: 30px;
+}
+.mybio{
+    font-family: monospace;
+    font-size: 15px;
+}
+.topnav a{
+    float: right;
+    align-items: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.topnav {
+    background-color: #202020;
+    overflow: hidden;
+} 
+.topnav a:hover{
+    background-color: burlywood;
+    color: black;
+    
+}
+.topnav a.active{
+    background-color: navy;
+    color: cadetblue;
+}
